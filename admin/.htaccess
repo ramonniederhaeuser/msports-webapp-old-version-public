@@ -1,0 +1,4 @@
+AuthType Basic 
+AuthName "Please Enter Password"
+AuthUserFile /home/**/www/**.**.ch/admin/.htpasswd
+Require valid-user

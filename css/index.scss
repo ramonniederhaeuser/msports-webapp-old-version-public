@@ -1,0 +1,30 @@
+/*primary variable*/
+$primary: olive;
+
+/*import bootstrap locally*/
+@import "../lib/bootstrap/scss/bootstrap.scss";
+
+.mensList {
+  li:first-child {
+    color:#DAA520;
+  }
+  li:nth-child(2) {
+    color:#C0C0C0;
+  }
+  li:nth-child(3) {
+    color: rgb(156, 82, 33)
+  }
+}
+
+.womensList {
+  li:first-child {
+    color:#DAA520;
+  }
+  li:nth-child(2) {
+    color:#C0C0C0;
+  }
+  li:nth-child(3) {
+    color: rgb(156, 82, 33)
+  }
+}
+
